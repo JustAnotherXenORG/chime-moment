@@ -416,6 +416,7 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
+    init.aospa.perf.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
     init.qti.ufs.rc \
