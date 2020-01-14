@@ -30,7 +30,7 @@ persist.sys.fuse.passthrough.enable=true
 ro.vendor.qti.va_aosp.support=1
 
 # IOrap
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+iorapd.readahead.enable=true
 iorapd.perfetto.enable=true
 
 # IMS
