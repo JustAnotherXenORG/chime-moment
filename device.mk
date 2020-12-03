@@ -135,6 +135,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsuspend
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Consumer IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
