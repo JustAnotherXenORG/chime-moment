@@ -75,6 +75,9 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 ODM_MANIFEST_SKUS += lemon
 ODM_MANIFEST_LEMON_FILES := $(DEVICE_PATH)/configs/vintf/manifest_lemon.xml
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_chime
 TARGET_RECOVERY_DEVICE_MODULES := libinit_chime
