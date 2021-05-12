@@ -61,6 +61,7 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.primary.bengal \
     audio.usb.default \
+    audio.usbv2.default \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
