@@ -73,8 +73,6 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_chime
 TARGET_RECOVERY_DEVICE_MODULES := libinit_chime
 
 # Kernel
-BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200n8
-BOARD_KERNEL_CMDLINE += earlycon=msm_geni_serial,0x4a90000
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom
 BOARD_KERNEL_CMDLINE += androidboot.memcg=1
 BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1
