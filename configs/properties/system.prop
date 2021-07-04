@@ -90,8 +90,6 @@ persist.timed.enable=true
 # WFD settings
 debug.sf.enable_hwc_vds=0
 media.wfd.max_resolution=8
-persist.debug.wfd.enable=1
-persist.sys.wfd.virtual=0
 
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
