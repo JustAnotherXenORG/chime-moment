@@ -22,3 +22,14 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_touch_timer_ms=200 \
     ro.surface_flinger.use_color_management=true \
     ro.surface_flinger.wcg_composition_dataspace=143261696
+
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    pm.dexopt.boot=verify \
+    pm.dexopt.first-boot=verify \
+    pm.dexopt.install=speed-profile \
+    dalvik.vm.image-dex2oat-filter=speed \
+    dalvik.vm.image-dex2oat-threads=8 \
+    dalvik.vm.dex2oat-filter=speed \
+    dalvik.vm.dex2oat-threads=8
+endif
