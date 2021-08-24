@@ -1,6 +1,9 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.launcher.blur.appLaunch=false
+
 # Charger
 ro.charger.disable_init_blank=true
 persist.vendor.quick.charge=1
