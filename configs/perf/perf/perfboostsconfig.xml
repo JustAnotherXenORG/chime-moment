@@ -25,7 +25,7 @@
 
         <!-- Type="1", main launch boost of 2sec -->
         <Config
-            Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="bengal"
+            Id="0x00001081" Type="1" Enable="true" Timeout="2500" Target="bengal"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1401,
                        0x40800100, 1305" />
         <Config
@@ -108,7 +108,7 @@
                       0x40C68040, 60, 0x40C68050, 60,
                       0x40C68060, 60, 0x40C68070, 60,
                       0x40C58000, 65, 0x40C54000, 71,
-                      0x40800000, 1056,
+                      0x40800000, 1612,
                       0x41448000, 20000"/>
        <Config
            Id="0x00001081" Type="6" Enable="true" Timeout="2000" Target="scuba"
@@ -129,8 +129,8 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="true" Timeout="400" Target="bengal"
-            Resources="0x40804000, 2016, 0x40804100, 1804, 0x40800000, 2208, 0x40800100, 1708" />
+            Id="0x00001083" Enable="true" Timeout="500" Target="bengal"
+            Resources="0x40804000, 2016, 0x40804100, 1804, 0x40800000, 2208, 0x40800100, 1804" />
         <Config
             Id="0x00001083" Enable="true" Timeout="400" Target="scuba"
             Resources="0x40804000, 2016, 0x40800000, 2208" />
@@ -352,8 +352,8 @@
         <!-- Type="", Rotation animation boost -->
 
         <Config
-            Id="0x00001090" Enable="true" Timeout="1000" Target="bengal"
-            Resources="0x40800100, 1000, 0x4280C000, 950" />
+            Id="0x00001090" Enable="true" Timeout="1500" Target="bengal"
+            Resources="0x40800100, 1804, 0x4280C000, 950" />
         <Config
             Id="0x00001090" Enable="true" Timeout="1000" Target="scuba"
             Resources="0x40800000, 1000, 0x4280C000, 950" />
@@ -368,7 +368,7 @@
         <!-- Type="1", Drag boost -->
          <Config
              Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="bengal"
-             Resources="0x40800000, 1056, 0x40800100, 1017" />
+             Resources="0x40800000, 1401, 0x40800100, 1612" />
          <Config
              Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="scuba"
              Resources="0x40800000, 1056" />
