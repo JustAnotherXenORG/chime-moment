@@ -1,3 +1,6 @@
+# Async MTE on system_server
+arm64.memtag.process.system_server=off
+
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
