@@ -7,6 +7,9 @@ vendor.bluetooth.soc=cherokee
 # Blur
 ro.launcher.blur.appLaunch=false
 
+# Dexopt
+dalvik.vm.dex2oat64.enabled=true
+
 # Charger
 ro.charger.disable_init_blank=true
 persist.vendor.quick.charge=1
