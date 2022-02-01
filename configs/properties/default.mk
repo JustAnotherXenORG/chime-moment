@@ -28,8 +28,12 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     pm.dexopt.boot=verify \
-    pm.dexopt.first-boot=verify \
+    pm.dexopt.first-boot=quicken \
     pm.dexopt.install=speed-profile \
+    pm.dexopt.bg-dexopt=everything \
+    dalvik.vm.boot-dex2oat-cpu-set=1,2,3,4,5,6,7 \
+    dalvik.vm.boot-dex2oat-threads=7 \
+    dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
     dalvik.vm.image-dex2oat-filter=speed \
     dalvik.vm.image-dex2oat-threads=8 \
     dalvik.vm.dex2oat-filter=speed \
