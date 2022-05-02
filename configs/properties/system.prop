@@ -75,6 +75,9 @@ ro.telephony.default_network=22,20
 persist.device_config.configuration.disable_rescue_party=true
 persist.sys.disable_rescue=true
 
+# Skia
+renderthread.skia.reduceopstasksplitting=true
+
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
