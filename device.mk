@@ -233,8 +233,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml
 
 # Health
+ifneq ($(wildcard vendor/qcom/opensource/healthd-ext/Android.bp),)
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-impl-qti
+else
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl
+endif
+PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
 
 # HIDL
