@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.android.settings.pomelo.overlay"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="com.android.settings"
+                android:requiredSystemPropertyName="ro.product.model"
+  android:requiredSystemPropertyValue="M2010J19SL"
+  android:priority="800"
+  android:isStatic="true" />
+</manifest>
