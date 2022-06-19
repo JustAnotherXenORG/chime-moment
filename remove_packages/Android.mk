@@ -28,7 +28,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     OPScreenRecord \
     Ornament \
     PixelLiveWallpaperPrebuilt \
-    Photos \
     PlayAutoInstallConfig \
     PrebuiltGmail \
     RecorderPrebuilt \
