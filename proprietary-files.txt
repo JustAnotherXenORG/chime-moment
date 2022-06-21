@@ -307,7 +307,6 @@ vendor/lib64/camera/components/com.qti.node.eisv3.so
 vendor/lib64/camera/components/com.qti.node.fcv.so
 vendor/lib64/camera/components/com.qti.node.gpu.so
 vendor/lib64/camera/components/com.qti.node.memcpy.so
-vendor/lib64/camera/components/com.qti.node.mialgocontrol.so
 vendor/lib64/camera/components/com.qti.node.realtimebokeh.so
 vendor/lib64/camera/components/com.qti.node.remosaic.so
 vendor/lib64/camera/components/com.qti.node.stich.so
@@ -336,6 +335,9 @@ vendor/lib64/camera/components/com.qtistatic.stats.af.so
 vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.vidhance.node.processing.so
+
+# Camera (components)(mialgocontrol) - stripped
+vendor/lib64/camera/components/com.qti.node.mialgocontrol.so|2d96200dd9c2dc25194f5178d05a2464f51862f4
 
 # Camera (configs)
 vendor/etc/camera/model/bokeh_model/cache_data
