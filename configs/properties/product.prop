@@ -4,3 +4,7 @@ audio.sys.mute.latency.factor=2
 audio.sys.routing.latency=0
 audio.offload.min.duration.secs=30
 audio.sys.offload.pstimeout.secs=3
+
+# LMKD
+ro.lmk.filecache_min_kb=153600
+ro.lmk.stall_limit_critical=40
