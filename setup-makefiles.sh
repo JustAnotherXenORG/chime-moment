@@ -24,6 +24,20 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
+SRC="$1"
+if [ ! -d "${SRC}" ]; then
+    echo "setup-makefiles: source not specified"
+    exit 1
+fi
+
+if [ -f "${SRC}/vendor/build.prop" ]; then
+    VENDOR_SECURITY_PATCH="$(cat ${SRC}/vendor/build.prop | grep ro.vendor.build.security_patch | cut -d "=" -f 2)"
+    echo "Vendor security patch detected as $VENDOR_SECURITY_PATCH"
+else
+    VENDOR_SECURITY_PATCH="\$(PLATFORM_SECURITY_PATCH)"
+    echo "Could not detect the vendor security patch, setting it to PLATFORM_SECURITY_PATCH"
+fi
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
@@ -31,6 +45,10 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
+
+(cat << EOF) >> $BOARDMK
+VENDOR_SECURITY_PATCH := ${VENDOR_SECURITY_PATCH}
+EOF
 
 # Finish
 write_footers

@@ -181,9 +181,6 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# Security patch level
-VENDOR_SECURITY_PATCH := 2022-07-05
-
 # Sensors
 USE_SENSOR_MULTI_HAL := true
 
