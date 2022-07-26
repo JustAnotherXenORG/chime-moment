@@ -2946,6 +2946,10 @@
         <path name="incall_music_uplink" />
     </path>
 
+    <path name="incall_music_uplink2 afe-proxy">
+        <path name="incall_music_uplink2" />
+    </path>
+
     <path name="incall_music_uplink2 usb-headphones">
         <path name="incall_music_uplink2" />
     </path>
@@ -3081,7 +3085,7 @@
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="TX DMIC MUX0" value="DMIC3" />
     </path>
-
+	
     <path name="dmic5">
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
@@ -3095,7 +3099,7 @@
     </path>
 
     <path name="speaker">
-        <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
+	     <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
         <ctl name="RX_MACRO RX1 MUX" value="AIF1_PB" />
         <ctl name="RX_CDC_DMA_RX_0 Channels" value="Two" />
         <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
@@ -3119,11 +3123,11 @@
         <ctl name="EAR_RDAC Switch" value="1" />
         <ctl name="RDAC3_MUX" value="RX1" />
         <ctl name="RX_EAR Mode" value="ON" />
-        <ctl name="Ext_BOTTOM_Speaker_Amp" value="Off" />
+      	<ctl name="Ext_BOTTOM_Speaker_Amp" value="Off" />
         <ctl name="Ext_TOP_Speaker_Amp" value="On" />
-        <ctl name="EAR PA GAIN" value="G_M1P5_DB" />
+	<ctl name="EAR PA GAIN" value="G_M1P5_DB" />
     </path>
-
+  
     <path name="bottom-speaker">
         <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
         <ctl name="RX_CDC_DMA_RX_0 Channels" value="One" />
@@ -3131,8 +3135,8 @@
         <ctl name="RX HPH Mode" value="CLS_AB" />
         <ctl name="AUX_RDAC Switch" value="1" />
         <ctl name="RX_RX2 Digital Volume" value="81" />
-        <ctl name="Ext_TOP_Speaker_Amp" value="Off" />
-        <ctl name="Ext_BOTTOM_Speaker_Amp" value="On" />
+      	<ctl name="Ext_TOP_Speaker_Amp" value="Off" />
+        <ctl name="Ext_BOTTOM_Speaker_Amp" value="On" />       
     </path>
 
     <path name="speaker-mono">
@@ -3194,7 +3198,7 @@
         <ctl name="RX_EAR Mode" value="ON" />
         <ctl name="Ext_Receiver_Amp" value="On" />
     </path>
-
+	
     <path name="handset-mic-cts">
         <path name="amic1" />
     </path>
@@ -3373,13 +3377,7 @@
     </path>
 
     <path name="voice-rec-mic">
-        <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
-        <ctl name="TX DEC0 MUX" value="SWR_MIC" />
-        <ctl name="TX SMIC MUX0" value="SWR_MIC0" />
-        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
-        <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="12" />
-        <ctl name="TX_DEC0 Volume" value="86" />
+        <path name="handset-mic" />
     </path>
 
     <path name="camcorder-mic">

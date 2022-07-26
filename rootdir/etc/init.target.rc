@@ -71,6 +71,8 @@ on late-fs
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
     mkdir /data/vendor/tloc 0700 system drmrpc
+
+#Turbo sched
     chmod 0666 /sys/module/migt/parameters/mi_viptask
     restorecon /sys/module/migt/parameters/mi_viptask
 
@@ -255,6 +257,21 @@ service closead /system/vendor/bin/displayf_bin s 0
     oneshot
     disabled
 
+#add display by hanwenhao
+service displayfeature /system/bin/displayfeature
+    class hal
+    user root
+    interface vendor.xiaomi.hardware.displayfeature@1.0::IDisplayFeature default
+    group system root
+    oneshot
+
+service displayfeatureqservice /vendor/bin/hw/displayfeatureqservice
+    class hal
+    user system
+    interface vendor.xiaomi.hardware.displayfeatureqservice@1.0::IDisplayFeatureQservice default
+    group system root
+    oneshot
+
 # add PcbaConfigSet by tanrong
 service PcbaConfigSet /system/vendor/bin/PcbaConfigSet
     class core
@@ -434,9 +451,3 @@ on property:sys.boot_completed=1
 ########### FTM end ##########
 ########### FTM end ##########
 
-service checknv /system/bin/checknv
-    class main
-    user root
-    group root system
-    oneshot
-    seclabel u:r:checknv:s0
