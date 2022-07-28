@@ -267,34 +267,34 @@ vendor/lib64/libwa_rtdof.so
 vendor/lib64/libxmi_high_dynamic_range.so
 
 # Camera - from citrus-user-11-RKQ1.201004.002-V12.5.7.0.RJFMIXM-release-keys
-vendor/lib64/camera/com.qti.eeprom.citrus_ofilm_ov8856_front_eeprom.so
-vendor/lib64/camera/com.qti.eeprom.citrus_sunny_ov8856_front_eeprom.so
-vendor/lib64/camera/com.qti.sensor.citrus_ofilm_ov8856_front.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_hi259_macro.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov02b1b_depth.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov8856_front.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1sp_main.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1st_main.so
-vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856_front.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856g2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_hi259_macro.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov02b1b_depth.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856_front.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856g2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1sp_main.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1st_main.bin
-vendor/lib64/camera/com.qti.tuned.citrus_ofilm_ov8856_front.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro_india.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth_india.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_global.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_india.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main_india.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main_india.bin
+vendor/lib64/camera/com.qti.eeprom.citrus_ofilm_ov8856_front_eeprom.so|23044529740a2d97174b839a8f4ce8f28f7f2c13
+vendor/lib64/camera/com.qti.eeprom.citrus_sunny_ov8856_front_eeprom.so|cd88aeeee6bb4876ec6352ca08cc1647ba53ea46
+vendor/lib64/camera/com.qti.sensor.citrus_ofilm_ov8856_front.so|51e3dcc984e44c574019ea22e0cc51880e8a90d9
+vendor/lib64/camera/com.qti.sensor.citrus_sunny_hi259_macro.so|59c3295ae9790a5e4fd34e86c90e9b0d082425d9
+vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov02b1b_depth.so|ceb695d24d3c6cb3bdd478969bfe8c261daf4d8c
+vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov8856_front.so|27fb337b43d0869a88907b134280dff7dafa56f8
+vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1sp_main.so|50985d710020e7a5b872d642b4ead10dfa03dd44
+vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1st_main.so|6c3d7b98aa5b71ad3598fb6a02a8bb9481664a43
+vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856_front.bin|4b3714005db097488a36ae63cbabb6a5469c39d0
+vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856g2_front.bin|a5f2d91616332029fbc7d76b9f684b1147168283
+vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_hi259_macro.bin|8053ce8adae027218f1de004746f128db03416f1
+vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov02b1b_depth.bin|ac623cd50b378bcd26385c1927c2b2c38b3457cf
+vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856_front.bin|3ff2266dbcc90587b2f299eba51ebd9ee72686f4
+vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856g2_front.bin|f725fcb6fa6809c158e4060e7bdea5ccaddec6de
+vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1sp_main.bin|4c8ce47d62742c9fbcfd501b00b63efbe0f5ea38
+vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1st_main.bin|58a765783f8a6390f91a6a80259888bcb0e7338a
+vendor/lib64/camera/com.qti.tuned.citrus_ofilm_ov8856_front.bin|33e9b023e86310673e4d24fcc10a1189939795cf
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro.bin|d59d26824312fa69d6757d99a070cb3e16cfbc18
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro_india.bin|eaf798cb6bb0fdce66a0ba4dcabd34e97c745e17
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth.bin|2ab8496e833612532d934526a83a720172e32217
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth_india.bin|2ab8496e833612532d934526a83a720172e32217
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front.bin|e572e78e9d833751ce126ef0cea378fa866c5ed0
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_global.bin|6ee72ef2b2bfe8a6b3afd634bf1e07e42aa28592
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_india.bin|bb94c0a6da7b7749243cb0e0a319b019bab8f23f
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main.bin|edeaab8da1284ecc5829c4a8dfa4adcb515effb9
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main_india.bin|ad076e32a7b8a3ec438b3cc06281c955bfa353dd
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main.bin|005348b93f5f52e227ffbf17c9d8912bdb957387
+vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main_india.bin|ba8a6f8c5c81a5a2d12d9ee9c99221997e9c2a05
 
 # Camera (arcsoft)
 vendor/lib64/libarcsoft_beautyshot.so
@@ -369,7 +369,7 @@ vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.vidhance.node.processing.so
 
 # Camera (components)(mialgocontrol) - stripped
-vendor/lib64/camera/components/com.qti.node.mialgocontrol.so|2d96200dd9c2dc25194f5178d05a2464f51862f4
+vendor/lib64/camera/components/com.qti.node.mialgocontrol.so
 
 # Camera (configs)
 vendor/etc/camera/model/bokeh_model/cache_data
