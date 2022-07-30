@@ -342,9 +342,4 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::ISileadFingerprint/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.displayfeatureqservice</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IDisplayFeatureQservice/default</fqname>
-    </hal>
 </manifest>
