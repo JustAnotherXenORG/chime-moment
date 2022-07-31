@@ -83,7 +83,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_chime
 TARGET_RECOVERY_DEVICE_MODULES := libinit_chime
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom
 BOARD_KERNEL_CMDLINE += androidboot.memcg=1
 BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
