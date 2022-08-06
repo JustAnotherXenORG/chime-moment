@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_chime.mk
+    $(LOCAL_DIR)/aosp_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_chime-user \
-    evolution_chime-userdebug \
-    evolution_chime-eng
+    aosp_chime-user \
+    aosp_chime-userdebug \
+    aosp_chime-eng
