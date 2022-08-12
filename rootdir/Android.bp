@@ -43,8 +43,8 @@ sh_binary {
 
 // Init configuration files
 prebuilt_etc {
-    name: "init.aospa.perf.rc",
-    src: "etc/init.aospa.perf.rc",
+    name: "init.chime.rc",
+    src: "etc/init.chime.rc",
     sub_dir: "init",
     vendor: true,
 }
