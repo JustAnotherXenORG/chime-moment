@@ -11,24 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from chime device
 $(call inherit-product, device/xiaomi/chime/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Pixel customization
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_CALL_RECORDING := true
+# Inherit some common xdroidOSS stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
+XDROID_MAINTAINER := frostg012
+XDROID_BOOT := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_chime
+PRODUCT_NAME := xdroid_chime
 PRODUCT_DEVICE := chime
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6115

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_chime.mk
+    $(LOCAL_DIR)/xdroid_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_chime-user \
-    aosp_chime-userdebug \
-    aosp_chime-eng
+    xdroid_chime-user \
+    xdroid_chime-userdebug \
+    xdroid_chime-eng
