@@ -157,7 +157,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.wifi</name>
-        <version>1.0-5</version>
+        <version>1.0-6</version>
         <interface>
             <name>IWifi</name>
             <instance>default</instance>
@@ -171,6 +171,13 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.wifi.hostapd</name>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.wifi.supplicant</name>
         <version>1.0-4</version>
@@ -178,6 +185,13 @@
             <name>ISupplicant</name>
             <instance>default</instance>
             <instance>wigigp2p</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.wifi.supplicant</name>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
