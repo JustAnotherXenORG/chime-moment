@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_chime.mk
+    $(LOCAL_DIR)/arrow_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_chime-user \
-    xdroid_chime-userdebug \
-    xdroid_chime-eng
+    arrow_chime-user \
+    arrow_chime-userdebug \
+    arrow_chime-eng

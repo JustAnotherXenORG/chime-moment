@@ -29,12 +29,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
-PRODUCT_PACKAGES += \
-    CitrusAboutOverlay \
-    LemonAboutOverlay \
-    LimeAboutOverlay \
-    PomeloAboutOverlay
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
