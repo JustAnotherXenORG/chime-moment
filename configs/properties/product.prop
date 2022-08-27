@@ -1,3 +1,17 @@
+# App Compaction configuration
+persist.sys.appcompact.enable_app_compact=false
+persist.sys.appcompact.full_compact_type=2
+persist.sys.appcompact.some_compact_type=4
+persist.sys.appcompact.compact_throttle_somesome=5000
+persist.sys.appcompact.compact_throttle_somefull=10000
+persist.sys.appcompact.compact_throttle_fullsome=500
+persist.sys.appcompact.compact_throttle_fullfull=10000
+persist.sys.appcompact.compact_throttle_bfgs=600000
+persist.sys.appcompact.compact_throttle_persistent=600000
+persist.sys.appcompact.rss_throttle_kb=12000
+persist.sys.appcompact.delta_rss_throttle_kb=8000
+persist.sys.perf.topAppRenderThreadBoost.enable=false
+
 # Audio
 audio.sys.noisy.broadcast.delay=500
 audio.sys.mute.latency.factor=2
