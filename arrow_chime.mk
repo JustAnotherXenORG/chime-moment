@@ -15,6 +15,8 @@ $(call inherit-product, device/xiaomi/chime/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
+ARROW_GAPPS := true
+ARROW_BETA := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_chime
