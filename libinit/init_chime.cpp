@@ -9,8 +9,6 @@
 
 #include "vendor_init.h"
 
-#include <fs_mgr_dm_linear.h>
-
 static const variant_info_t citrus_info = {
     .hwc_value = "",
     .sku_value = "citrus",
@@ -69,12 +67,4 @@ static const std::vector<variant_info_t> variants = {
 void vendor_load_properties() {
     search_variant(variants);
     set_dalvik_heap();
-
-#ifdef __ANDROID_RECOVERY__
-    std::string buildtype = GetProperty("ro.build.type", "userdebug");
-    if (buildtype != "user") {
-        property_override("ro.debuggable", "1");
-        property_override("ro.adb.secure.recovery", "0");
-    }
-#endif
 }
