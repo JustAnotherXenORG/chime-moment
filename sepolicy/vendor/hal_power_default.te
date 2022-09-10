@@ -11,20 +11,5 @@ allow hal_power_default {
   sysfs_touchpanel
 }:dir search;
 
-allow hal_power_default {
-  cgroup
-  proc
-  sysfs_devices_system_cpu
-  vendor_sysfs_graphics
-  vendor_sysfs_kgsl
-  sysfs_msm_subsys
-  sysfs_touchpanel
-  vendor_sysfs_scsi_host 
-  sysfs_fs_f2fs
-}:{
-  file
-  lnk_file
-} rw_file_perms;
-
 # Rule for hal_power_default to access graphics composer process
 unix_socket_connect(hal_power_default, vendor_pps, hal_graphics_composer_default);

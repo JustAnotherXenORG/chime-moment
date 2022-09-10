@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_chime.mk
+    $(LOCAL_DIR)/p404_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_chime-user \
-    xdroid_chime-userdebug \
-    xdroid_chime-eng
+    p404_chime-user \
+    p404_chime-userdebug \
+    p404_chime-eng

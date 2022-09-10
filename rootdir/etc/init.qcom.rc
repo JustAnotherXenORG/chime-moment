@@ -1042,6 +1042,12 @@ on property:vendor.opengles.version=*
 on property:vendor.gpu.available_frequencies=*
     setprop ro.vendor.gpu.available_frequencies ${vendor.gpu.available_frequencies}
 
+service vendor.power-hal /vendor/bin/hw/android.hardware.power-service
+    override
+    class hal
+    user system
+    group system input
+
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     override
     class hal
